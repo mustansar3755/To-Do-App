@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@theme {
+  /* Tailwind ko batayein ke ye dynamic variables utilities generate karein */
+  --color-primary-start: var(--primary-start);
+  --color-primary-end: var(--primary-end);
+  
+  --color-primary: var(--primary-main);
+  --color-surface: var(--surface);
+  --color-background: var(--background);
+  --color-text-main: var(--text-main);
+  --color-text-muted: var(--text-muted);
+}
+
+/* ==========================================================================
+   THEME CONFIGURATIONS (Default: Sunset Orange)
+   ========================================================================== */
+:root, [data-theme="sunset"] {
+  --primary-start: #ffb703;
+  --primary-end: #ff6b00;
+  
+  --primary-main: #ffc427;
+  --surface: #ffffff;
+  --background: #f9fafb;
+  --text-main: #101828;
+  --text-muted: #535353;
+}
+
+[data-theme="ocean"] {
+  --primary-start: #4ea8de;
+  --primary-end: #3a86ff;
+  
+  --primary-main: #3a86ff;
+  --surface: #ffffff;
+  --background: #f0f7ff;
+  --text-main: #0f172a;
+  --text-muted: #475569;
+}
+
+[data-theme="royal"] {
+  --primary-start: #b5179e;
+  --primary-end: #7209b7;
+  
+  --primary-main: #7209b7;
+  --surface: #ffffff;
+  --background: #faf5ff;
+  --text-main: #1e1b4b;
+  --text-muted: #581c87;
+}
+
+[data-theme="forest"] {
+  --primary-start: #06d6a0;
+  --primary-end: #00b4d8;
+  
+  --primary-main: #06d6a0;
+  --surface: #ffffff;
+  --background: #f0fdf4;
+  --text-main: #14532d;
+  --text-muted: #166534;
+}
+
+[data-theme="dark-forest"] {
+  --primary-start: #000000;
+  --primary-end: #0c0c0c;
+  
+  --primary-main: #06d6a0;
+  --surface: #000000;
+  --background: #000000;
+  --text-main: #ffffff;
+  --text-muted: #fafafa;
+}
