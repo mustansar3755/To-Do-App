@@ -52,10 +52,10 @@ const Home = () => {
         <Progress totalTasks={totalTasks} completedTasks={completedTasks} />
       ) : (
         // Case 2: Anonymous external welcome block banners
-        <div className="w-full rounded-3xl min-h-44 md:h-44 flex flex-col md:flex-row items-center justify-between gap-6 bg-linear-to-r from-primary-start to-primary-end px-8 md:px-12 py-6 text-white shadow-xl shadow-primary-end/10 transition-all duration-300">
+        <div className="w-full rounded-xl min-h-44 md:h-44 flex flex-col md:flex-row items-center justify-between gap-6 bg-linear-to-r from-primary-start to-primary-end px-8 md:px-12 py-6 text-white shadow-xl shadow-primary-end/10 transition-all duration-300">
           <div className="text-center md:text-left flex-1">
             <h2 className="text-2xl md:text-3xl font-black tracking-tight mb-2">
-              Welcome to TaskPanda! 🐼
+              Welcome to ProTrack ToDo! 
             </h2>
             <p className="text-sm md:text-base text-white/90 max-w-md font-medium leading-relaxed">
               Your intelligent full-stack workspace. Please sign in or create an
@@ -74,7 +74,7 @@ const Home = () => {
               text="Sign Up Free"
               variant="outline"
               onClick={() => navigate("/register")}
-              className="px-4 py-2 bg-white text-gray-700 hover:bg-gray-50 hover:-translate-y-1"
+              className="px-4 py-2 bg-white text-gray-700 hover:bg-transparent hover:border-gray-300 hover:text-white hover:-translate-y-1"
             />
           </div>
         </div>

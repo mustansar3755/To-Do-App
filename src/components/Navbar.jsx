@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className="w-full h-20 bg-surface px-10 flex items-center justify-between border-b border-gray-100 relative">
       <span className="text-xl font-bold bg-linear-to-r from-primary-start to-primary-end bg-clip-text text-main">
-        TaskPanda 🐼
+        ProTrack ToDo
       </span>
 
       <div className="flex items-center gap-4">

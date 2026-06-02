@@ -18,7 +18,7 @@ const Button = ({
     solid: "bg-primary text-text-main shadow-xs hover:opacity-90 active:bg-primary/90",
     
     // Transparent outline tracking theme text accents
-    outline: "bg-transparent border-2 border-primary text-text-main hover:bg-primary/10",
+    outline: "bg-transparent border-2 border-primary text-text-main ",
     
     // Full Premium Multi-Theme Shiftable Gradient
     gradient: "bg-linear-to-r from-primary-start to-primary-end text-white shadow-md hover:opacity-95 shadow-primary-end/10"
